@@ -37,7 +37,7 @@
 .logo:hover {
     cursor: pointer;
     animation: scale-logo .1s ease-in-out 0s;
-    transform: scale(1.5);
+    transform: scale(1.25);
 }
 
 @keyframes scale-logo {
@@ -45,13 +45,13 @@
         transform: scale(1);
     }
     to {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 }
 
 @keyframes scale-logo-reverse {
     from {
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
     to {    
         transform: scale(1);
