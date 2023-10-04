@@ -1,0 +1,43 @@
+.title {
+    margin: 50px 0px;
+
+}
+
+.container {
+
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.category{
+    display: flex;
+    color: black;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    width: 25%;
+    height: 80px;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.category.education {
+    background-color: whitesmoke;
+}
+
+.category.skills {
+    background-color: whitesmoke;
+}
+
+.category.hobbies {
+    background-color: whitesmoke;
+}
+
+.image {
+    border-radius: 50%;
+}

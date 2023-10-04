@@ -13,14 +13,14 @@ const Featured = () => {
                     <Image src="/p1.png" alt="" className={styles.image} fill/>
                 </div>
                 <div className={styles.textContainer}>
-                    <h1 className={styles.postTitle}> Next.JS Blog app </h1>
+                    <h1 className={styles.postTitle}> Next.JS/React Blog app </h1>
                     <p className={styles.postDesc}>
                         This website is an exercise in JavaScript, CSS, React, Next.js & MongoDB. Throughout creating this
                         project, I've learnt so much about Web Development and have been able to meddle with the website. I
                         feel that this method of learning, breaking and changing things to get a better understand of the
                         underlying principles!
                     </p>
-                    <button className={styles.button}>Read More</button>
+                    <button className={styles.button}><a href="https://github.com/Luke-Barry/next-blog" target="_blank">Github repo</a></button>
                 </div>
             </div>
             <div className={styles.post}>
@@ -35,7 +35,7 @@ const Featured = () => {
                         learning experience! Deployed virtually through Docker, the system models the behaviour
                         of a Star topology.
                     </p>
-                    <button className={styles.button}>Read More</button>
+                    <button className={styles.button}><a href="https://github.com/Luke-Barry/next-blog" target="_blank">Github repo</a></button>
                 </div>
             </div>
         </div>
