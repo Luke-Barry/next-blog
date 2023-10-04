@@ -1,12 +1,9 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import { ThemeContextProvider } from '@/context/ThemeContext';
 import ThemeProvider from '@/providers/ThemeProvider';
-
-
-const inter = Inter({ subsets: ['latin'] })
+import Head from 'next/head';
 
 export const metadata = {
   title: 'Blog App by Luke Barry',
@@ -16,7 +13,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <Head>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet"/>
+      </Head>
+      <body>
         <ThemeContextProvider>
           <ThemeProvider>
         <div className="container">
